@@ -8,4 +8,7 @@ import { Component, Input } from '@angular/core';
 })
 export class InputComponent {
   @Input() control: FormControl = new FormControl();
+  @Input() type = 'text';
+  @Input() placehoder = '';
+  @Input() format = '';
 }
